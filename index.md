@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D BOOK</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <script src="https://kit.fontawesome.com/f292cdaf7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <button id = "prevBtn">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+     </button>
+     
+     <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>Front 1</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Back 1</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Front 2</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h1>Back 2</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <h1>Front 3</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <h1>Back 3</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <button id="nextBtn">
+        <i class="fa-solid fa-circle-arrow-right"></i>
+     </button>
+
+</body>
+</html>
